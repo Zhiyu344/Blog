@@ -11,7 +11,7 @@
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
-  --theme-color: #101010;
+  --theme-color: rgba(22,22,23,0.8);
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
@@ -38,7 +38,7 @@
     --table-row-odd-bg-color: #282828;
     --table-row-hover-bg-color: #363636;
     --menu-item-bg-color: #555;
-    --theme-color: #101010;
+    --theme-color: rgba(22,22,23,0.8);
     --btn-default-bg: #222;
     --btn-default-color: #ccc;
     --btn-default-border-color: #555;
@@ -1388,7 +1388,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #b913c6;
+    background: #3cfeab;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1464,9 +1464,6 @@ pre code {
 }
 .links-of-author a {
   font-size: 0.8125em;
-}
-.links-of-author i[class^='fa'] {
-  margin-right: 2px;
 }
 .sidebar .sidebar-button:not(:first-child) {
   margin-top: 15px;
@@ -1811,7 +1808,6 @@ pre code {
   color: ;
   display: inline-block;
   margin: 0 5px;
-  animation: icon-animate 1.33s ease-in-out infinite;
 }
 @keyframes icon-animate {
   0%, 100% {
@@ -2855,7 +2851,6 @@ header.header {
   }
   .links-of-author-item {
     margin: 5px 0 0;
-    width: 50%;
   }
   .links-of-author-item a {
     box-sizing: border-box;
